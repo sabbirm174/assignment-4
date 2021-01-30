@@ -32,7 +32,7 @@ function calculatTotal(){
     elementId("grandTotal").innerText = "$" + grandTotal;
 }
 
-// popup alertbox
+// dynamic popup alertbox
 function popUp(){
     const wrap = elementId("wrap");
     wrap.style.display = "none";
