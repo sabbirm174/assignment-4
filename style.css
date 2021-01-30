@@ -96,6 +96,9 @@ nav ul li a:hover, a.active{
     padding: 1rem 0;
     position: relative;
 }
+#alert-box2 p{
+    padding: 10px 0;
+}
 #alert-box1{
     position: absolute;
     padding: 31px;
@@ -108,17 +111,19 @@ nav ul li a:hover, a.active{
     top:28%;
     left:34%;
     display: none;
+
 }
 #alert-box2 {
     position: absolute;
     padding: 31px;
+    text-align: center;
     background-color: #f1f1f1;
     font-size: 26px;
     box-shadow: 0px 0px 26px -4px rgba(0,0,0,0.42);
     width: 425px;
-    height: 280px;
+    height: 440px;
     border-radius: 4px;
-    top:28%;
+    top:15%;
     left:34%;
     display: none;
 }
@@ -128,7 +133,7 @@ nav ul li a:hover, a.active{
     margin-top:16px ;
 }
 #alert-box1 p {
-    margin: 55px 0 27px 21px;
+    margin: 55px 0 27px 44px;
 }
 #alert-box2 a, #alert-box1 a{
     text-decoration: none;
