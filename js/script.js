@@ -30,7 +30,6 @@ function calculatTotal(){
     elementId("vat").innerText = "$" + vat;
     const grandTotal = totalPrice + vat;
     elementId("grandTotal").innerText = "$" + grandTotal;
-    
 }
 
 // popup alertbox
@@ -60,7 +59,6 @@ function popUp(){
         const alert = elementId("alert-box1");
         alert.style.display = "block";
     }
-    
 }
 
 // purchase alert box close
