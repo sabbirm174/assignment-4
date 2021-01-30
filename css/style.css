@@ -49,7 +49,7 @@ nav ul li a:hover, a.active{
     font-size: 25px; 
 }
 .wrapper{
-    background:url("images/bg.png");
+    background:url("../images/bg.png");
     font-family: 'Roboto', sans-serif;
     background-repeat: no-repeat;
     background-position: center center;
